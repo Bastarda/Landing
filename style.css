@@ -17,9 +17,34 @@ div{
   display:inline-block;
 }
 
-h1{
+.font{
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+h1.menu_h{
+  color: #1A0E3E; 
+  text-indent: 50px; 
+  margin-top: 30px;
+}
+
+h1.bl1{
+  text-align: center;
+  line-height: 70px;
+}
+
+h1.bl2{
+  text-align: center;
+  line-height: 50px;
+}
+
+.color1{
+  color: #1A0E3E;
+}
+
+.color2{
+  color: #D854C2;
+}
+
 
 .m_1{
   top: -1px;
@@ -33,6 +58,22 @@ h1{
   line-height: 65px;
   text-align: center;
   font-size: 10pt;
+}
+
+.m_1.a{
+  left: 550px;
+}
+
+.m_1.b{
+  left: 700px;
+}
+
+.m_1.c{
+  left: 850px;
+}
+
+.m_1.d{
+  left: 1000px;
 }
 
 .logo_1{
@@ -68,8 +109,6 @@ h1{
   width: 54%;
   
   /*Text*/
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #D854C2;
   line-height: 200px;
   text-align: center;
   font-size: 72pt;
@@ -89,10 +128,8 @@ h1{
   background: #D854C2;
   
   /*Text*/
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 59px;
+  padding: 63px;
   box-sizing: border-box;
-  color: #1A0E3E;
 
 }
 .block_2{
@@ -104,7 +141,6 @@ h1{
   /*Text*/
   padding: 40px;
   box-sizing: border-box;
-  color: #FF54FF;
 }
 
 .last{
@@ -117,5 +153,4 @@ h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 50px;
   box-sizing: border-box;
-  color: #1A0E3E;
 }
